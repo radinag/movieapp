@@ -1,0 +1,24 @@
+
+#movies img, #movie img{
+    width: 100%;
+  }
+
+  .well {
+      min-height: 20px;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: #1c1e22;
+      border: 1px solid #16171d;
+      border-radius: 1px;
+      box-shadow: inset 0 1px 1px rgbs(0,0,0,0.6);
+  }
+  
+  @media (min-width: 960px) {
+    #movies .col-md-3 .well {
+      height: 450px;
+    }
+  
+    #movies .col-md-3 img {
+      min-height: 300px;      
+    }
+  }
